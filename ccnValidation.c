@@ -40,7 +40,7 @@ void check(long long ccn)
             }
         }
     }
-    // printf("sum = %d\n", sum);
+    printf("sum = %d\n", sum);
     
     // Take the sum of all the numbers not multiplied
     for(j = 0; j < nDigits; j++)
