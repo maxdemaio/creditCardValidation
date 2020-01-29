@@ -4,7 +4,7 @@
 
 Credit card number validation using Luhn's algorithm (AMEX, MasterCard, Visa)
 
-This program will prompt the user for a credit card number, and print whether it is a valid AMEX, MasterCard, or VISA credit card. If not valid, the program will output "INVALID."
+This program will prompt the user for a credit card number and print whether it is a valid AMEX, MasterCard, or VISA credit card. If not valid, the program will output "INVALID."
 
 Example (using a fake credit card number, of course):
 ```console
