@@ -2,7 +2,7 @@
 #include <cs50.h>
 #include <math.h>
 
-// Check sum function for card validity
+// Declare check sum function for card validity
 void check(long long ccn);
 
 // Main function
@@ -19,6 +19,7 @@ int main(void)
     check(ccn);
 }
 
+// Check sum function for card validity
 void check(long long ccn)
 {
     int nDigits;
