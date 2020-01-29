@@ -3,6 +3,22 @@
 #include <math.h>
 
 // Check sum function for card validity
+void check(long long ccn);
+
+// Main function
+int main(void)
+{
+    // Input
+    long long ccn; 
+    do
+    {
+        ccn = get_long_long("Please enter a credit card number\n");
+    }
+    while(ccn <= 0);
+    // Output
+    check(ccn);
+}
+
 void check(long long ccn)
 {
     int nDigits;
@@ -89,17 +105,4 @@ void check(long long ccn)
     {
         printf("INVALID\n");
     }
-}
-
-int main(void)
-{
-    // Input
-    long long ccn; 
-    do
-    {
-        ccn = get_long_long("Please enter a credit card number\n");
-    }
-    while(ccn <= 0);
-    // Output
-    check(ccn);
 }
