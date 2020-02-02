@@ -1,6 +1,6 @@
 # creditCardValidation
 
-<img src="images/ccnGitOctocat.png" width = 200>
+<img src="images/ccnGitOctocat.png" width = 300>
 
 Credit card number validation using Luhn's algorithm (AMEX, MasterCard, Visa)
 
